@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red Dragons Community</title> 
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center/cover;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin-top: 80px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #ff3c3c;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #dd2828;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin: 10px;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      margin: 30px 0;
+      color: #aaa;
+    }
+
+    .contact-admin {
+      position: fixed;
+      top: 50%;
+      right: 0;
+      background-color: #dd2828;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px 0 0 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transform: translateY(-50%);
+      transition: background-color 0.3s ease;
+      z-index: 999;
+    }
+
+    .contact-admin:hover {
+      background-color: #ff3c3c;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        padding: 20px;
+      }
+
+      .logo {
+        width: 150px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      button {
+        font-size: 16px;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <img src="logo.png" alt="Red Dragons Logo" class="logo" />
+    <h1>Сообщество Red Dragons</h1>
+
+    <a href="https://t.me/RED_DRAGONS_COM" target="_blank">
+      <button>Присоединиться в Telegram</button>
+    </a>
+
+    <a href="https://www.youtube.com/" target="_blank">
+      <button>Смотреть на YouTube</button>
+    </a>
+
+    <a href="https://www.tiktok.com/" target="_blank">
+      <button>Смотреть в TikTok</button>
+    </a>
+  </div>
+  <footer>
+    © 2025 Red Dragons Community. Все права защищены.
+  </footer>
+  <!-- Кнопка справа -->
+  <a href="https://t.me/blackredddd" class="contact-admin shake-button" target="_blank">
+    Связаться с админом
+  </a>
